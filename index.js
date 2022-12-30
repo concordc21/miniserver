@@ -20,7 +20,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/', (req, res) => {
-    res.send('hello')
+    res.send('<h1>hello everybody</h1>')
 })
 
 // Routes
